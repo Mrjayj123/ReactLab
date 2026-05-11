@@ -25,7 +25,7 @@ function ProjectForm({ onAddProject }) {
       .then((res) => res.json())
       .then((data) => {
         onAddProject(data);
-        navigate('/'); // Redirect to landing page after success
+        navigate('/'); 
       });
   };
 

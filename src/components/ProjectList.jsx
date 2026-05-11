@@ -1,4 +1,3 @@
-// ProjectList.js
 import { Link } from 'react-router-dom';
 
 function ProjectList({ projects }) {
@@ -15,7 +14,6 @@ function ProjectList({ projects }) {
   );
 }
 
-// ProjectDetail.js
 import { useParams } from 'react-router-dom';
 
 function ProjectDetail({ projects }) {

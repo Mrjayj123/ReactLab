@@ -11,7 +11,6 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Note: Using port 5000 - ensure your json-server matches this!
     fetch('http://localhost:5000/projects')
       .then((res) => res.json())
       .then((data) => {
@@ -20,7 +19,7 @@ function App() {
       })
       .catch((err) => {
         console.error("Fetch error:", err);
-        setLoading(false); // Stop loading even if it fails
+        setLoading(false); 
       });
   }, []);
 
