@@ -1,0 +1,13 @@
+
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Project One",
+ 
+     "description": "Working project",
+      "image": "https://via.placeholder.com/150",
+      "technologies": "React"
+    }
+  ]
+}
